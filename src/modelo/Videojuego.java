@@ -1,13 +1,10 @@
 package modelo;
 
-/**
- * Representa un videojuego con nombre, género, plataforma y puntuación.
- */
 public class Videojuego {
     private String nombre;
     private String genero;
     private String plataforma;
-    private int puntuacion; // de 1 a 5
+    private int puntuacion;
 
     public Videojuego(String nombre, String genero, String plataforma, int puntuacion) {
         this.nombre = nombre;
@@ -15,8 +12,6 @@ public class Videojuego {
         this.plataforma = plataforma;
         this.puntuacion = puntuacion;
     }
-
-    // Getters y Setters
 
     public String getNombre() { return nombre; }
     public void setNombre(String nombre) { this.nombre = nombre; }
